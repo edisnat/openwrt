@@ -27,6 +27,7 @@ ALLWIFIBOARDS:= \
 	aruba_ap-303 \
 	avm_fritzrepeater-1200 \
 	ezviz_cs-w3-wd1200g-eup \
+	hiwifi_c526a \
 	linksys_ea8300 \
 	mobipromo_cm520-79f \
 	p2w_r619ac \
@@ -96,6 +97,7 @@ endef
 $(eval $(call generate-ipq-wifi-package,aruba_ap-303,Aruba AP-303))
 $(eval $(call generate-ipq-wifi-package,avm_fritzrepeater-1200,AVM FRITZRepeater 1200))
 $(eval $(call generate-ipq-wifi-package,ezviz_cs-w3-wd1200g-eup,EZVIZ CS-W3-WD1200G EUP))
+$(eval $(call generate-ipq-wifi-package,hiwifi_c526a,HiWiFi C526A))
 $(eval $(call generate-ipq-wifi-package,linksys_ea8300,Linksys EA8300))
 $(eval $(call generate-ipq-wifi-package,mobipromo_cm520-79f,MobiPromo CM520-79F))
 $(eval $(call generate-ipq-wifi-package,p2w_r619ac,P&W R619AC))
